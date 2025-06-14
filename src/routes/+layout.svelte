@@ -6,8 +6,8 @@
 
 <NavbarContainer />
 
-<main class="min-h-screen pt-16 pb-20">
-    <div class="container mx-auto px-6">
+<main class="min-h-screen pt-16 pb-32 bg-gray-100">
+    <div class="container mx-auto px-6 h-[calc(100vh-8rem)] overflow-y-auto">
         <slot />
     </div>
 </main>

@@ -6,7 +6,6 @@
   
     function logout() {
         console.log('User logged out:', user.name);
-        // Add your logout logic here
     }
 </script>
   

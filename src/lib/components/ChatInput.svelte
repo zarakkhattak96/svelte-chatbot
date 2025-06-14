@@ -24,13 +24,13 @@
     }
 </script>
 
-<div class="fixed bottom-0 left-0 right-0 bg-[var(--bg)] p-4 border-t border-gray-200">
+<div class="fixed bottom-16 left-0 right-0 bg-[var(--bg)] p-4 border-t border-gray-200 shadow-md">
     <form on:submit|preventDefault={handleSubmit} class="flex gap-2 max-w-4xl mx-auto">
         <textarea
             bind:value={message}
             on:keydown={handleKeydown}
             placeholder="Type your message..."
-            class="flex-1 p-2 rounded-lg border border-gray-300 focus:outline-none focus:border-[var(--accent)] resize-none"
+            class="flex-1 p-2 rounded-lg border border-gray-300 focus:outline-none focus:border-[var(--accent)] resize-none bg-white"
             rows="1"
         ></textarea>
         <button
