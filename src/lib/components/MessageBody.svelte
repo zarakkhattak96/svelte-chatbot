@@ -13,7 +13,7 @@
         </div>
     </div>
 {:else}
-    <div class="flex flex-col flex-1 p-2 text-gray-900 dark:text-gray-100 bg-gray-50 dark:bg-gray-800 rounded-lg overflow-y-auto min-h-[180px] max-h-[60vh]">
+    <div class="flex flex-col gap-4 flex-1 p-2 text-gray-900 dark:text-gray-100 bg-gray-50 dark:bg-gray-800 rounded-lg overflow-y-auto min-h-[180px] max-h-[60vh]">
         {#each messages as message}
             <MessageBubble text={message.text} isUser={message.isUser} />
         {/each}
